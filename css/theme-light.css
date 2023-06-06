@@ -1,0 +1,74 @@
+body{
+    background: rgb(236, 236, 236);
+    color: #000;
+    transition: .5s;
+}
+.theme{
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: .5s;
+}
+.theme:hover{
+    background: rgb(37, 33, 59);
+    box-shadow: 0 0 10px rgba(37, 33, 59, 0.5);
+    transition: .5s;
+    fill: #ffffff;
+}
+.change-theme[data-theme="dark"]{
+    display: block;
+    transition: .5s;
+}
+.change-theme[data-theme="light"]{
+    display: none;
+    transition: .5s;
+}
+.buttons .button{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: #fff;
+    color: black;
+}
+.buttons .button:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgb(37, 33, 59);
+    color: rgb(255, 255, 255);
+}
+.buttons .active{
+    background: #444;
+    color: #fff;
+}
+.menubtn{
+    background: #fff;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.menubtn:hover{
+    font-size: 20px;
+    transition: .5s;
+    background: rgb(37, 33, 59);;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sbrs{
+    background: #fff;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.sbrs:hover{
+    font-size: 20px;
+    transition: .5s;
+    background: rgb(37, 33, 59);;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.btn1{
+    background: #fff;
+    color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.btn1:hover{
+    font-size: 20px;
+    transition: .5s;
+    background: rgb(37, 33, 59);;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
