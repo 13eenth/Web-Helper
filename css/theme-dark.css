@@ -1,0 +1,146 @@
+body{
+    background: rgb(53, 53, 53);
+    color: #ffffff;
+    transition: .5s;
+}
+.theme{
+    background: rgb(53, 53, 53);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transition: .5s;
+    fill: #ffffff;
+}
+.theme:hover{
+    background: rgb(157, 234, 240);
+    box-shadow: 0 0 10px rgb(255, 196, 0);
+    transition: .5s;
+    fill: #f7c830;
+}
+.change-theme[data-theme="dark"]{
+    display: none;
+    transition: .5s;
+}
+.change-theme[data-theme="light"]{
+    display: block;
+    transition: .5s;
+}
+.buttons .button{
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    background: rgb(53, 53, 53);
+    color: rgb(255, 255, 255);
+}
+.buttons .button:hover{
+    box-shadow: 0 0 10px #6bfaee;
+    background: #f7c830;
+    color: rgb(0, 0, 0);
+}
+.buttons .active{
+    background: #ffffff;
+    color: #444;
+}
+.menubtn{
+    background: rgb(144, 212, 252);
+    color: rgb(0,0,0);
+    box-shadow: 0 0 10px rgba(144, 212, 252, 0.5);
+}
+.menubtn:hover{
+    font-size: 20px;
+    transition: .5s;
+    background: #f7c830;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #6bfaee;
+}
+.sbrs{
+    background: rgb(144, 212, 252);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(144, 212, 252, 0.25);
+}
+.sbrs:hover{
+    font-size: 20px;
+    transition: .5s;
+    background: #f7c830;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #6bfaee;
+}
+.btn1{
+    background: rgb(144, 212, 252);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(144, 212, 252, 0.25);
+}
+.btn1:hover{
+    font-size: 20px;
+    transition: .5s;
+    background: #f7c830;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #6bfaee;
+}
+/*---------------------------------РЕГИСТРАЦИЯ/ВХОД---------------------------------*/
+input{
+    background-color: rgb(53, 53, 53);
+    border-bottom: 2px solid #6bfaee;
+    color: #fff;
+    transition: .5s;
+}
+input:hover{
+    background-color: rgb(53, 53, 53);
+    border-bottom: 2px solid #f7c830;
+    box-shadow: 0 0 10px rgba(#f7c830, 0.25);
+    color: #fff;
+    transition: .5s;
+}
+a{
+    background: rgb(144, 212, 252);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgba(144, 212, 252, 0.25);
+    transition: .5s;
+}
+a:hover{
+    background: #f7c830;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px #6bfaee;
+    transition: .5s;
+}
+/*---------------------------------ПОП-АП СПРАВКИ---------------------------------*/
+.popup__bg-3{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+.popup__bg-3.active{
+    opacity: 1;
+    pointer-events: all;
+    transition: .5s;
+}
+.popup-3{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+/*---------------------------------ПОП-АП ПЕРЕФЕРИИ---------------------------------*/
+.popup__bgprfr{
+    background: rgba(0,0,0,0.5);
+}
+.popup-prfr{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+/*---------------------------------ПОП-АП МОНОБЛОК/НОУТБУК---------------------------------*/
+.popup__bgmnblck{
+    background: rgba(0,0,0,0.5);
+}
+.popup-mnblck{
+    background-color: rgb(80, 80, 80);
+    color: white;
+}
+/*---------------------------------ПОП-АП КОМПЛЕКТУЮЩИХ---------------------------------*/
+.popup__bgPC{
+    background: rgba(0,0,0,0.5);
+}
+.popup-PC{
+    background-color:  rgb(80, 80, 80);
+    color: #fff;
+}
